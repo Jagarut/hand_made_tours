@@ -15,7 +15,7 @@ const getTours = graphql`
           languages
           images {
             fluid {
-              ...GatsbyContentfulFluid_tracedSVG
+              ...GatsbyContentfulFluid
             }
           }
         }
